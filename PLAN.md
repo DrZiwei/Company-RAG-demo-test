@@ -41,6 +41,10 @@ Use a concise product brief and one architecture note (or ADR) rather than a lar
 - A suggested action waits for human approval and the approved decision is visible to colleagues.
 - The demo runs from generated data, with setup instructions and a public repository that contains no real company data or secrets.
 
+## Future workstream
+
+Document creation, connected meeting assistants, automatic ingestion from saved artifacts, and scheduled follow-ups are planned separately on `plan/document-services`. See [FUTURE_DOCUMENT_SERVICES.md](FUTURE_DOCUMENT_SERVICES.md) for the workflow, interfaces, delivery stages, and acceptance scenarios.
+
 ## Working defaults
 
 - Public repository: `DrZiwei/Company-RAG-demo-test`.
