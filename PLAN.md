@@ -1,50 +1,36 @@
-# Company Knowledge Assistant Demo — Plan
+# Company Knowledge and AI Assistant - Novastone demo
 
-## Goal
+## Goal and audience
 
-Show company decision makers how a knowledge assistant can make company knowledge easier to find, ground answers in approved sources, and support accountable actions. The demo should make shared understanding and informed decisions visible, not just show a chat box.
+Help company decision makers review performance, inspect evidence, compare feasible actions, and share accountable decisions. Novastone is a fictional bioscience company supplying research-use assay kits and analytical services. All people, records, suppliers, customers, and figures are synthetic.
 
-## Demo story
+## Current milestone
 
-Use a fictional company and generated documents throughout. A support teammate asks how to handle a customer request. The assistant answers from current company policy, links each important claim to its source, flags any uncertainty or conflicting guidance, and proposes an action. A human reviews and approves the action. The resulting decision appears in a shared activity or decision log so other teams can learn from it.
+The source corpus is ready: 20 everyday and management documents, a source manifest with stable section IDs and PDF page ranges, and a 22-page readable PDF pack. The application has not been built. See [WALKTHROUGH.md](WALKTHROUGH.md) for the presentation and [EVALUATION.md](EVALUATION.md) for questions, evidence, and answer limits.
 
-## Main screens and workflow
+## Business-review story
 
-1. **Overview:** Show the knowledge base's document count and freshness, recent questions, decisions awaiting review, and a small feed of shared insights.
-2. **Ask:** Let a user ask a question and see a concise answer, source excerpts with document/page references, and a clear confidence or evidence state.
-3. **Knowledge library:** Show generated policy and process documents with owner, status, version/date, and processing state. Include a simple add-document flow for the demo.
-4. **Proposed action:** Present a suggested support action with its policy basis. Require a person to approve before marking it complete; record who approved it and why.
-5. **Decision log:** Show the question, cited evidence, chosen action, reviewer, and timestamp so the result is reusable by colleagues.
+At the Q3 2026 review, revenue grew 10% but missed target; margin, delivery, repeat purchasing, and service turnaround weakened. Leaders investigate the evidence and compare release-record improvements, alternate-supplier assessment, and customer-status portal discovery against six available specialist weeks. They review a proposed decision, identify owner and approval conditions, and record the result in a shared log.
 
-## Generated demo data
+Answers distinguish observations from causes, actuals from archived forecasts, and discussion/draft proposals from approved decisions. New decisions entered during the demo are stored separately from the imported baseline corpus.
 
-Create a small, internally consistent fictional document set: customer refund policy, support escalation guide, product incident runbook, and a short company operating-principles document. Include dates, owners, and versions. Add one deliberately outdated policy or a known policy conflict to demonstrate that the assistant can surface uncertainty instead of silently combining incompatible guidance. Keep all names, customers, and events fictional.
+## Interface and data boundaries
 
-## Technical organization
+Plan a management overview, knowledge library, cited Q&A, option/decision review, and shared action/decision history. Offer live AI behind a client demo access code and clearly labelled replay examples for presentations. Keep API credentials server-side and enforce usage limits.
 
-Keep the browser interface, Python API, and document/RAG processing as separate modules in one repository. Organize the repo around `frontend/` (interface), `backend/` (API and action/decision records), `processing/` (document parsing, indexing, retrieval), `data/demo-documents/` (fictional sources), and `docs/` (product and architecture notes). Expose API boundaries for document listing/ingestion, question answering with citations, and proposed/approved actions. Use seeded local demo data so the walkthrough works without private company files. Keep model/provider configuration outside source control and document the local setup.
+Keep the interface in `frontend/`, API and decision records in `backend/`, and document parsing/indexing/retrieval in `processing/`. Sources live in `data/demo-documents/novastone/`; the readable pack lives in `output/pdf/`. A source manifest carries owner, date, status, version, and section/page references. Audience labels in these synthetic files are metadata, not implemented access controls.
 
-Use a concise product brief and one architecture note (or ADR) rather than a large SDD package. Add focused tests around the important contracts: document metadata survives ingestion, answers return source references, unsupported questions are marked as such, and actions cannot be recorded as approved without a reviewer decision. TDD can be used for these behaviors without maintaining a separate TDD document.
+## Next implementation milestones
 
-## Delivery sequence
+1. Specify APIs, source/answer/decision contracts, AI-provider setup, and hosted architecture in one technical design note. Evaluate Sites for the interface against backend needs.
+2. Implement ingestion and cited answers, including stale and insufficient evidence, and verify against EVALUATION.md.
+3. Implement client access, management interface, labelled replay, and approval-based simulated decisions.
+4. Verify the full walkthrough from a clean setup and publish a shared client URL. The source repository is available; hosting is a separate milestone.
 
-1. Create the public repository and commit this plan and a short README.
-2. Generate the fictional document set and define its expected questions, citations, and one uncertainty case.
-3. Build the backend ingestion and retrieval path, then the answer/citation and approval-action APIs.
-4. Build the interface around the five-screen walkthrough and connect it to the API.
-5. Verify the walkthrough from a clean setup, add run instructions, and decide whether Sites is a suitable hosting/presentation layer for the finished interface.
+## Future workstream
 
-## Success criteria
+Document drafting, meeting assistants, automatic folder ingestion, and scheduled follow-ups remain on [plan/document-services](https://github.com/DrZiwei/Company-RAG-demo-test/tree/plan/document-services). The source pack's meeting and action records can support that later walkthrough.
 
-- A decision maker can understand the value in a short guided walkthrough without reading implementation details.
-- Answers show inspectable source evidence and clearly handle missing or conflicting evidence.
-- A suggested action waits for human approval and the approved decision is visible to colleagues.
-- The demo runs from generated data, with setup instructions and a public repository that contains no real company data or secrets.
+## Defaults
 
-## Working defaults
-
-- Public repository: `DrZiwei/Company-RAG-demo-test`.
-- Audience: company decision makers.
-- Data: generated fictional policies and operational documents only.
-- First release: a working local proof of concept with a polished walkthrough; consider Sites for hosting after the interface is ready.
-- GitHub visibility: public, as requested.
+English interface and documents; public repository `DrZiwei/Company-RAG-demo-test`; fictional data only; live AI with replay; client live access via demo code; first-release actions are simulated. Use a concise product brief, one technical design document, and an evaluation checklist.

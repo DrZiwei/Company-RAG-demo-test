@@ -1,28 +1,35 @@
-# Company Knowledge Assistant Demo
+# Company Knowledge and AI Assistant
 
-A demo for company decision makers showing how shared company knowledge can support answers, informed decisions, and approved actions.
+A decision-maker demo for **Novastone**, a fictional bioscience company supplying research-use assay kits and analytical services. It shows how shared company knowledge supports a business review, evidence-backed recommendations, and accountable actions.
 
-**Current stage:** planning. The application and sample documents are planned; they have not been built yet.
+**Current stage:** source documents and the walkthrough are ready; the RAG backend and interface are not implemented yet.
 
-## Planned walkthrough
+## Explore the demo materials
 
-1. Browse a fictional company's knowledge library.
-2. Ask a question and inspect the answer's source evidence.
-3. Review a suggested action and approve it.
-4. See the decision in a shared log so colleagues can reuse the insight.
+- [20 fictional company documents and provenance manifest](data/demo-documents/novastone/)
+- [Readable 22-page PDF pack](output/pdf/novastone-company-knowledge-pack.pdf)
+- [Downloadable source pack](novastone-demo-pack.zip)
+- [Business-review walkthrough](WALKTHROUGH.md)
+- [Questions, expected evidence, and answer limits](EVALUATION.md)
+- [Project plan](PLAN.md)
 
-All demo documents, customers, and events will be fictional. Actions in the first demo will be simulated and recorded locally, with no real refunds, emails, or changes to client systems.
+The documents include an org chart, finance/KPI review, leadership meeting, operations meeting, lab stand-up, supplier review, customer listening notes, project update, Quality investigation, onboarding notes, and shared action/decision logs. Dates, versions, owners, statuses, and references make cross-document questions possible. All names, numbers, and events are invented and do not describe any actual business using the name Novastone.
 
-## Planned project structure
+## Demonstration story
+
+Understand why revenue growth coexists with delivery, margin, and repeat-order problems; inspect evidence and unknowns; compare improvements against available capacity; review and record a simulated decision. Live AI will use a client access code; saved presentation examples will be labelled as replay.
+
+## Planned application structure
 
 ```text
-frontend/              Browser interface; consider Sites when ready
+frontend/              Management interface; consider Sites when ready
 backend/               API, approvals, and shared decision records
 processing/            Document parsing, indexing, and retrieval
-data/demo-documents/   Generated fictional knowledge sources
-docs/                  Product brief and architecture notes
+data/demo-documents/   Fictional source files and manifest
+output/pdf/            Readable source pack
+tools/                 Reproducible corpus generator
 ```
 
-These directories will be added as each component is built. See [PLAN.md](PLAN.md) for the demo story, delivery sequence, and success criteria.
+To regenerate the corpus and PDF, run `python tools/generate_novastone_pack.py` with `reportlab` and `pypdf` installed. The generator checks numerical reconciliation, cross-references, and extractable source section IDs. It does not run an AI service.
 
-The first milestone is a working local proof of concept. A public source repository and a hosted client walkthrough are separate deliverables; hosting will be selected once the interface is ready.
+Future document creation, connected meeting capture, and scheduled automation are planned on [plan/document-services](https://github.com/DrZiwei/Company-RAG-demo-test/tree/plan/document-services).
