@@ -1,0 +1,724 @@
+{
+  "snapshot_date": "2026-10-02",
+  "company": "Novastone",
+  "synthetic": true,
+  "source_count": 20,
+  "documents": [
+    {
+      "document_id": "NVS-001",
+      "title": "Company profile and operating model",
+      "type": "company profile",
+      "owner": "Maya Chen, CEO",
+      "updated_at": "2026-09-30",
+      "version": "1.0",
+      "status": "current",
+      "company": "Novastone",
+      "audience": "internal-demo",
+      "synthetic": true,
+      "period": "Q3 2026 / October planning",
+      "path": "data/demo-documents/novastone/company-profile.md",
+      "sha256": "8d2f5a1834a35c4257478b300900c0e54c2f18e6ad2c0f593bcd6a7491c4aa27",
+      "sections": [
+        {
+          "id": "NVS-001-S01",
+          "title": "Business"
+        },
+        {
+          "id": "NVS-001-S02",
+          "title": "Operating model"
+        },
+        {
+          "id": "NVS-001-S03",
+          "title": "Review context"
+        },
+        {
+          "id": "NVS-001-S04",
+          "title": "Company boundaries"
+        }
+      ],
+      "pdf_path": "output/pdf/novastone-company-knowledge-pack.pdf",
+      "pdf_start_page": 3,
+      "pdf_end_page": 3
+    },
+    {
+      "document_id": "NVS-002",
+      "title": "Organisation chart and decision responsibilities",
+      "type": "org chart / RACI",
+      "owner": "Leah Morgan, People and Operations",
+      "updated_at": "2026-10-01",
+      "version": "1.0",
+      "status": "current",
+      "company": "Novastone",
+      "audience": "internal-demo",
+      "synthetic": true,
+      "period": "Q3 2026 / October planning",
+      "path": "data/demo-documents/novastone/org-chart-and-responsibilities.md",
+      "sha256": "14c4f8475b37660f31976e3575fa2943073de0da6366f1f7a3706aeba8d8316d",
+      "sections": [
+        {
+          "id": "NVS-002-S01",
+          "title": "Organisation chart"
+        },
+        {
+          "id": "NVS-002-S02",
+          "title": "Working contacts"
+        },
+        {
+          "id": "NVS-002-S03",
+          "title": "Responsibility matrix"
+        },
+        {
+          "id": "NVS-002-S04",
+          "title": "Escalation"
+        }
+      ],
+      "pdf_path": "output/pdf/novastone-company-knowledge-pack.pdf",
+      "pdf_start_page": 4,
+      "pdf_end_page": 4
+    },
+    {
+      "document_id": "NVS-003",
+      "title": "Q3 2026 finance and KPI review",
+      "type": "management report",
+      "owner": "Priya Shah, CFO",
+      "updated_at": "2026-10-02",
+      "version": "1.0",
+      "status": "approved",
+      "company": "Novastone",
+      "audience": "internal-demo",
+      "synthetic": true,
+      "period": "Q3 2026 / October planning",
+      "path": "data/demo-documents/novastone/q3-finance-and-kpi-review.md",
+      "sha256": "685f183e25c37c280cc368af4d6bf70c9616e8c99f915bfe0961f1bedd7f5c18",
+      "sections": [
+        {
+          "id": "NVS-003-S01",
+          "title": "Revenue and margin"
+        },
+        {
+          "id": "NVS-003-S02",
+          "title": "Gross profit"
+        },
+        {
+          "id": "NVS-003-S03",
+          "title": "Operating KPIs"
+        },
+        {
+          "id": "NVS-003-S04",
+          "title": "Definitions and close"
+        },
+        {
+          "id": "NVS-003-S05",
+          "title": "Interpretation limits"
+        }
+      ],
+      "pdf_path": "output/pdf/novastone-company-knowledge-pack.pdf",
+      "pdf_start_page": 5,
+      "pdf_end_page": 5
+    },
+    {
+      "document_id": "NVS-004",
+      "title": "Commercial pipeline and customer commitments",
+      "type": "commercial update",
+      "owner": "Grace Okafor, Head of Commercial",
+      "updated_at": "2026-09-30",
+      "version": "1.0",
+      "status": "current",
+      "company": "Novastone",
+      "audience": "internal-demo",
+      "synthetic": true,
+      "period": "Q3 2026 / October planning",
+      "path": "data/demo-documents/novastone/commercial-pipeline-update.md",
+      "sha256": "16bf7e83a659d4c6b4d52b7ba4b9ea352045cc7cfe705a5e7719eeafe319dbc4",
+      "sections": [
+        {
+          "id": "NVS-004-S01",
+          "title": "Quarter close"
+        },
+        {
+          "id": "NVS-004-S02",
+          "title": "Customer commitments"
+        },
+        {
+          "id": "NVS-004-S03",
+          "title": "Pipeline review"
+        },
+        {
+          "id": "NVS-004-S04",
+          "title": "Actions"
+        }
+      ],
+      "pdf_path": "output/pdf/novastone-company-knowledge-pack.pdf",
+      "pdf_start_page": 6,
+      "pdf_end_page": 6
+    },
+    {
+      "document_id": "NVS-005",
+      "title": "Operations review: production, release, and delivery",
+      "type": "operations report",
+      "owner": "Daniel Brooks, COO",
+      "updated_at": "2026-09-30",
+      "version": "1.0",
+      "status": "current",
+      "company": "Novastone",
+      "audience": "internal-demo",
+      "synthetic": true,
+      "period": "Q3 2026 / October planning",
+      "path": "data/demo-documents/novastone/operations-quarterly-review.md",
+      "sha256": "6663fea0c0a8de673565e0de356e54bf1cebfd0d2e1dc5d6f910a5eefb6fb7cb",
+      "sections": [
+        {
+          "id": "NVS-005-S01",
+          "title": "Production and shipment"
+        },
+        {
+          "id": "NVS-005-S02",
+          "title": "Delay categories"
+        },
+        {
+          "id": "NVS-005-S03",
+          "title": "Observed bottleneck"
+        },
+        {
+          "id": "NVS-005-S04",
+          "title": "October options"
+        }
+      ],
+      "pdf_path": "output/pdf/novastone-company-knowledge-pack.pdf",
+      "pdf_start_page": 7,
+      "pdf_end_page": 7
+    },
+    {
+      "document_id": "NVS-006",
+      "title": "Customer success listening notes and repeat purchasing",
+      "type": "customer feedback memo",
+      "owner": "Nina Ellis, Customer Success Manager",
+      "updated_at": "2026-09-30",
+      "version": "1.0",
+      "status": "current",
+      "company": "Novastone",
+      "audience": "internal-demo",
+      "synthetic": true,
+      "period": "Q3 2026 / October planning",
+      "path": "data/demo-documents/novastone/customer-success-feedback.md",
+      "sha256": "f5f3c8a10521161c1955b014550c70fd5e642c8ffffec37950ee761cd2e3a078",
+      "sections": [
+        {
+          "id": "NVS-006-S01",
+          "title": "Sample and metric"
+        },
+        {
+          "id": "NVS-006-S02",
+          "title": "Listening notes"
+        },
+        {
+          "id": "NVS-006-S03",
+          "title": "Hypotheses"
+        },
+        {
+          "id": "NVS-006-S04",
+          "title": "Follow-up"
+        }
+      ],
+      "pdf_path": "output/pdf/novastone-company-knowledge-pack.pdf",
+      "pdf_start_page": 8,
+      "pdf_end_page": 8
+    },
+    {
+      "document_id": "NVS-007",
+      "title": "October improvement capacity and option comparison",
+      "type": "resource plan",
+      "owner": "Daniel Brooks and Dr Elena Ruiz",
+      "updated_at": "2026-10-01",
+      "version": "1.0",
+      "status": "approved",
+      "company": "Novastone",
+      "audience": "internal-demo",
+      "synthetic": true,
+      "period": "Q3 2026 / October planning",
+      "path": "data/demo-documents/novastone/october-capacity-and-options.md",
+      "sha256": "2aff2eb24253d748e35f8ef402f591f1a624b4f050342b25504f11233e71f6eb",
+      "sections": [
+        {
+          "id": "NVS-007-S01",
+          "title": "Available capacity"
+        },
+        {
+          "id": "NVS-007-S02",
+          "title": "Options"
+        },
+        {
+          "id": "NVS-007-S03",
+          "title": "Feasible allocation"
+        },
+        {
+          "id": "NVS-007-S04",
+          "title": "Decision boundaries"
+        }
+      ],
+      "pdf_path": "output/pdf/novastone-company-knowledge-pack.pdf",
+      "pdf_start_page": 9,
+      "pdf_end_page": 9
+    },
+    {
+      "document_id": "NVS-008",
+      "title": "Q4 priorities and management approval policy",
+      "type": "strategy and policy",
+      "owner": "Maya Chen, CEO",
+      "updated_at": "2026-10-01",
+      "version": "1.0",
+      "status": "approved",
+      "company": "Novastone",
+      "audience": "internal-demo",
+      "synthetic": true,
+      "period": "Q3 2026 / October planning",
+      "path": "data/demo-documents/novastone/priorities-and-approval-policy.md",
+      "sha256": "f9cc10be2a1c637dd5d51329c81612a42ecfd56414805a8461959f04bf55f273",
+      "sections": [
+        {
+          "id": "NVS-008-S01",
+          "title": "Priority order"
+        },
+        {
+          "id": "NVS-008-S02",
+          "title": "Spending authority"
+        },
+        {
+          "id": "NVS-008-S03",
+          "title": "Quality and scientific boundaries"
+        },
+        {
+          "id": "NVS-008-S04",
+          "title": "Decision records"
+        }
+      ],
+      "pdf_path": "output/pdf/novastone-company-knowledge-pack.pdf",
+      "pdf_start_page": 10,
+      "pdf_end_page": 10
+    },
+    {
+      "document_id": "NVS-009",
+      "title": "Archived Q3 forecast and delivery assumptions",
+      "type": "forecast",
+      "owner": "Priya Shah, CFO",
+      "updated_at": "2026-08-20",
+      "version": "1.0",
+      "status": "superseded",
+      "company": "Novastone",
+      "audience": "internal-demo",
+      "synthetic": true,
+      "period": "Q3 2026 / October planning",
+      "path": "data/demo-documents/novastone/archived-q3-forecast.md",
+      "sha256": "1cf5df892352a3ad8b37071a2a5c9aaf811b8ee17ab88808e3179a2545e26633",
+      "sections": [
+        {
+          "id": "NVS-009-S01",
+          "title": "Historical forecast"
+        },
+        {
+          "id": "NVS-009-S02",
+          "title": "Why retained"
+        },
+        {
+          "id": "NVS-009-S03",
+          "title": "Unresolved future"
+        }
+      ],
+      "pdf_path": "output/pdf/novastone-company-knowledge-pack.pdf",
+      "pdf_start_page": 11,
+      "pdf_end_page": 11
+    },
+    {
+      "document_id": "NVS-010",
+      "title": "Leadership review meeting - 30 September",
+      "type": "meeting notes",
+      "owner": "Leah Morgan, meeting recorder",
+      "updated_at": "2026-09-30",
+      "version": "1.0",
+      "status": "reviewed",
+      "company": "Novastone",
+      "audience": "internal-demo",
+      "synthetic": true,
+      "period": "Q3 2026 / October planning",
+      "path": "data/demo-documents/novastone/leadership-review-meeting.md",
+      "sha256": "fda95f588ee92ec6f79d92dc5a1ce5bf9484841a4d9ae6f3e27438c2f622f935",
+      "sections": [
+        {
+          "id": "NVS-010-S01",
+          "title": "Meeting context"
+        },
+        {
+          "id": "NVS-010-S02",
+          "title": "Discussion"
+        },
+        {
+          "id": "NVS-010-S03",
+          "title": "Decisions and non-decisions"
+        },
+        {
+          "id": "NVS-010-S04",
+          "title": "Action points"
+        }
+      ],
+      "pdf_path": "output/pdf/novastone-company-knowledge-pack.pdf",
+      "pdf_start_page": 12,
+      "pdf_end_page": 12
+    },
+    {
+      "document_id": "NVS-011",
+      "title": "Weekly operations meeting - 29 September",
+      "type": "meeting notes",
+      "owner": "Owen Reed, Production Lead",
+      "updated_at": "2026-09-29",
+      "version": "1.0",
+      "status": "reviewed",
+      "company": "Novastone",
+      "audience": "internal-demo",
+      "synthetic": true,
+      "period": "Q3 2026 / October planning",
+      "path": "data/demo-documents/novastone/weekly-operations-meeting.md",
+      "sha256": "00036c5ca7abde72d87204c49afba696f650a9cd9c4483fa1c7cf27b787ea198",
+      "sections": [
+        {
+          "id": "NVS-011-S01",
+          "title": "Attendance and agenda"
+        },
+        {
+          "id": "NVS-011-S02",
+          "title": "Working notes"
+        },
+        {
+          "id": "NVS-011-S03",
+          "title": "Agreed tasks"
+        },
+        {
+          "id": "NVS-011-S04",
+          "title": "Carry-over"
+        }
+      ],
+      "pdf_path": "output/pdf/novastone-company-knowledge-pack.pdf",
+      "pdf_start_page": 13,
+      "pdf_end_page": 13
+    },
+    {
+      "document_id": "NVS-012",
+      "title": "Laboratory services stand-up - 30 September",
+      "type": "daily team note",
+      "owner": "Dr Samir Khan, Laboratory Services Lead",
+      "updated_at": "2026-09-30",
+      "version": "1.0",
+      "status": "current",
+      "company": "Novastone",
+      "audience": "internal-demo",
+      "synthetic": true,
+      "period": "Q3 2026 / October planning",
+      "path": "data/demo-documents/novastone/lab-team-standup.md",
+      "sha256": "3558a1e435389c65e50a2fd9b31a868a35b59ea28356cf983678d9e713f8a30c",
+      "sections": [
+        {
+          "id": "NVS-012-S01",
+          "title": "Daily context"
+        },
+        {
+          "id": "NVS-012-S02",
+          "title": "Work queue"
+        },
+        {
+          "id": "NVS-012-S03",
+          "title": "Today's actions"
+        },
+        {
+          "id": "NVS-012-S04",
+          "title": "Escalation"
+        }
+      ],
+      "pdf_path": "output/pdf/novastone-company-knowledge-pack.pdf",
+      "pdf_start_page": 14,
+      "pdf_end_page": 14
+    },
+    {
+      "document_id": "NVS-013",
+      "title": "QA investigation QA-26-014 and corrective action status",
+      "type": "quality status record",
+      "owner": "Dr Aisha Patel, Head of Quality",
+      "updated_at": "2026-10-02",
+      "version": "1.0",
+      "status": "current",
+      "company": "Novastone",
+      "audience": "internal-demo",
+      "synthetic": true,
+      "period": "Q3 2026 / October planning",
+      "path": "data/demo-documents/novastone/quality-investigation-capa.md",
+      "sha256": "d81286d3c273aa8ae0d3728c3f385659d2abd1dc8495a0d7d738139d3c70be82",
+      "sections": [
+        {
+          "id": "NVS-013-S01",
+          "title": "Record status"
+        },
+        {
+          "id": "NVS-013-S02",
+          "title": "Observed evidence"
+        },
+        {
+          "id": "NVS-013-S03",
+          "title": "Containment and proposal"
+        },
+        {
+          "id": "NVS-013-S04",
+          "title": "Next review"
+        }
+      ],
+      "pdf_path": "output/pdf/novastone-company-knowledge-pack.pdf",
+      "pdf_start_page": 15,
+      "pdf_end_page": 15
+    },
+    {
+      "document_id": "NVS-014",
+      "title": "Supplier performance and contingency review",
+      "type": "supplier memo",
+      "owner": "Tom Bell, Supply Chain Manager",
+      "updated_at": "2026-10-01",
+      "version": "1.0",
+      "status": "current",
+      "company": "Novastone",
+      "audience": "internal-demo",
+      "synthetic": true,
+      "period": "Q3 2026 / October planning",
+      "path": "data/demo-documents/novastone/supplier-review.md",
+      "sha256": "7c1ed92f47e80f4cd0f250e5dd75bb4affd68f414178bea2a7abfecbc5adbea8",
+      "sections": [
+        {
+          "id": "NVS-014-S01",
+          "title": "Supplier context"
+        },
+        {
+          "id": "NVS-014-S02",
+          "title": "Contingency option"
+        },
+        {
+          "id": "NVS-014-S03",
+          "title": "Tradeoff"
+        },
+        {
+          "id": "NVS-014-S04",
+          "title": "Uncertainty"
+        }
+      ],
+      "pdf_path": "output/pdf/novastone-company-knowledge-pack.pdf",
+      "pdf_start_page": 16,
+      "pdf_end_page": 16
+    },
+    {
+      "document_id": "NVS-015",
+      "title": "Project Orion monthly research product update",
+      "type": "project update",
+      "owner": "Dr Elena Ruiz, CSO",
+      "updated_at": "2026-09-30",
+      "version": "1.0",
+      "status": "current",
+      "company": "Novastone",
+      "audience": "internal-demo",
+      "synthetic": true,
+      "period": "Q3 2026 / October planning",
+      "path": "data/demo-documents/novastone/orion-project-update.md",
+      "sha256": "f95005925c5610cb140df4b03a948a43ba564dbf01c5a674f6b65bc4135bb034",
+      "sections": [
+        {
+          "id": "NVS-015-S01",
+          "title": "Project scope"
+        },
+        {
+          "id": "NVS-015-S02",
+          "title": "Progress"
+        },
+        {
+          "id": "NVS-015-S03",
+          "title": "Capacity and dependencies"
+        },
+        {
+          "id": "NVS-015-S04",
+          "title": "Management request"
+        }
+      ],
+      "pdf_path": "output/pdf/novastone-company-knowledge-pack.pdf",
+      "pdf_start_page": 17,
+      "pdf_end_page": 17
+    },
+    {
+      "document_id": "NVS-016",
+      "title": "Working guide: documents, meetings, and knowledge ownership",
+      "type": "internal procedure",
+      "owner": "Leah Morgan and Dr Aisha Patel",
+      "updated_at": "2026-10-01",
+      "version": "1.0",
+      "status": "approved",
+      "company": "Novastone",
+      "audience": "internal-demo",
+      "synthetic": true,
+      "period": "Q3 2026 / October planning",
+      "path": "data/demo-documents/novastone/document-governance-guide.md",
+      "sha256": "054587985ec7cb97c6c136ae9a5b6599d02097587bd12ac46afe8af4f201779b",
+      "sections": [
+        {
+          "id": "NVS-016-S01",
+          "title": "Document ownership"
+        },
+        {
+          "id": "NVS-016-S02",
+          "title": "Meeting practice"
+        },
+        {
+          "id": "NVS-016-S03",
+          "title": "Sharing and source use"
+        },
+        {
+          "id": "NVS-016-S04",
+          "title": "AI-generated drafts"
+        }
+      ],
+      "pdf_path": "output/pdf/novastone-company-knowledge-pack.pdf",
+      "pdf_start_page": 18,
+      "pdf_end_page": 18
+    },
+    {
+      "document_id": "NVS-017",
+      "title": "Proposal: improve release record completeness",
+      "type": "project proposal",
+      "owner": "Owen Reed, Production Lead",
+      "updated_at": "2026-10-02",
+      "version": "1.0",
+      "status": "draft",
+      "company": "Novastone",
+      "audience": "internal-demo",
+      "synthetic": true,
+      "period": "Q3 2026 / October planning",
+      "path": "data/demo-documents/novastone/release-improvement-proposal.md",
+      "sha256": "4ef468174f6648525c41e2b902fe8ee250be8f7ec9c046ec2c2f8c56eb5434f8",
+      "sections": [
+        {
+          "id": "NVS-017-S01",
+          "title": "Proposed intervention"
+        },
+        {
+          "id": "NVS-017-S02",
+          "title": "Effort and budget"
+        },
+        {
+          "id": "NVS-017-S03",
+          "title": "Approval and measures"
+        },
+        {
+          "id": "NVS-017-S04",
+          "title": "Limits and next step"
+        }
+      ],
+      "pdf_path": "output/pdf/novastone-company-knowledge-pack.pdf",
+      "pdf_start_page": 19,
+      "pdf_end_page": 19
+    },
+    {
+      "document_id": "NVS-018",
+      "title": "New starter and team handover notes",
+      "type": "onboarding / handover",
+      "owner": "Leah Morgan, People and Operations",
+      "updated_at": "2026-10-01",
+      "version": "1.0",
+      "status": "current",
+      "company": "Novastone",
+      "audience": "internal-demo",
+      "synthetic": true,
+      "period": "Q3 2026 / October planning",
+      "path": "data/demo-documents/novastone/new-starter-handover.md",
+      "sha256": "044b4e1b685f677389cc91508bf6e5b9e989f081f2100a7879c83341a9b59ab2",
+      "sections": [
+        {
+          "id": "NVS-018-S01",
+          "title": "Who to ask"
+        },
+        {
+          "id": "NVS-018-S02",
+          "title": "First-week orientation"
+        },
+        {
+          "id": "NVS-018-S03",
+          "title": "Current handover"
+        },
+        {
+          "id": "NVS-018-S04",
+          "title": "Everyday tasks"
+        }
+      ],
+      "pdf_path": "output/pdf/novastone-company-knowledge-pack.pdf",
+      "pdf_start_page": 20,
+      "pdf_end_page": 20
+    },
+    {
+      "document_id": "NVS-019",
+      "title": "Shared action tracker - snapshot at 2 October",
+      "type": "action tracker",
+      "owner": "Leah Morgan, coordination owner",
+      "updated_at": "2026-10-02",
+      "version": "1.0",
+      "status": "current",
+      "company": "Novastone",
+      "audience": "internal-demo",
+      "synthetic": true,
+      "period": "Q3 2026 / October planning",
+      "path": "data/demo-documents/novastone/shared-action-tracker.md",
+      "sha256": "4ffa763be61d2b0ba885f8ceb91d0baa4def714ee8d4786ff61b80b839805c61",
+      "sections": [
+        {
+          "id": "NVS-019-S01",
+          "title": "Action register"
+        },
+        {
+          "id": "NVS-019-S02",
+          "title": "Status meanings"
+        },
+        {
+          "id": "NVS-019-S03",
+          "title": "Execution boundary"
+        }
+      ],
+      "pdf_path": "output/pdf/novastone-company-knowledge-pack.pdf",
+      "pdf_start_page": 21,
+      "pdf_end_page": 21
+    },
+    {
+      "document_id": "NVS-020",
+      "title": "Decision history and current management risks",
+      "type": "decision / risk register",
+      "owner": "Maya Chen, CEO",
+      "updated_at": "2026-10-02",
+      "version": "1.0",
+      "status": "current",
+      "company": "Novastone",
+      "audience": "internal-demo",
+      "synthetic": true,
+      "period": "Q3 2026 / October planning",
+      "path": "data/demo-documents/novastone/decision-and-risk-log.md",
+      "sha256": "ac8879eb5755aecdcaeb865c9de6874e455eda5a6008bf31bced2f1cfdb7951f",
+      "sections": [
+        {
+          "id": "NVS-020-S01",
+          "title": "Existing decisions"
+        },
+        {
+          "id": "NVS-020-S02",
+          "title": "Pending decision"
+        },
+        {
+          "id": "NVS-020-S03",
+          "title": "Current risks"
+        },
+        {
+          "id": "NVS-020-S04",
+          "title": "Review evidence"
+        }
+      ],
+      "pdf_path": "output/pdf/novastone-company-knowledge-pack.pdf",
+      "pdf_start_page": 22,
+      "pdf_end_page": 22
+    }
+  ]
+}
